@@ -1,0 +1,29 @@
+services:
+
+  laravel:
+    container_name: php
+    build: .
+    volumes:
+      - C:/project:/var/www/html
+    ports:
+      - "8080:8080"
+  
+  mysql:
+    container_name: mysql
+    image: mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: mysql_bd
+    ports:
+    - 3306:3306
+  
+  phpmyadmin:
+    container_name: phpmyadmin
+    image: phpmyadmin:latest
+    ports:
+      - 9001:80
+    environment:
+      PMA_HOST: mysql
+      MYSQL_ROOT_PASSWORD: root
+    depends_on:
+      - mysql
