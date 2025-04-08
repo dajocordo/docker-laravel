@@ -2,5 +2,5 @@
 
 Docker setup for Laravel PHP with MySQL. Includes Dockerfile, docker-compose.yml, and Makefile for easy environment management.
 
-![docker-img](https://github.com/user-attachments/assets/605777c6-8099-4f6e-82e7-5b47fa62f644)
+![docker-img-1](https://github.com/user-attachments/assets/e8c59ba4-e1aa-4831-9879-d8e01b0f7a1b)
 
