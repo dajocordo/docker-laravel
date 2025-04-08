@@ -6,6 +6,7 @@ Docker setup for Laravel PHP with MySQL. Includes Dockerfile, docker-compose.yml
 
 <h4>Steps</h4>
 
-1. Download or clone repository.
+1. Download or clone repository.<br>
+
 2. Open a terminal inside the folder and write this command:<br>
 <code>docker-compose up -d --build</code>
